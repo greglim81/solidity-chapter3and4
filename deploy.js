@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface,bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(  
-  'exist shrug arrive stable matter arena glimpse oven guilt upon cool endless', 
-  'https://rinkeby.infura.io/GLm6McXWuaih4gqq8nTY'    
+  'your own twelve mnemonic', 
+  'https://rinkeby.infura.io/your own key'    
 );
 
 const web3 = new Web3(provider);
