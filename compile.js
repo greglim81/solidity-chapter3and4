@@ -3,7 +3,6 @@ const fs = require('fs');
 const solc = require('solc');
 
 const greetingsPath = path.resolve(__dirname,'contracts','Greetings.sol');
-//const greetingsPath = path.resolve(__dirname,'contracts','ChainList.sol');
 
 const source = fs.readFileSync(greetingsPath, 'utf8');
 
